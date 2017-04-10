@@ -16,6 +16,12 @@
         android:textSize="40sp"
        />
 
+    <ImageView
+        android:id="@+id/friend_visual"
+        android:layout_gravity="center"
+        android:src="@drawable/five"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
     <Button
         android:id="@+id/button1"
