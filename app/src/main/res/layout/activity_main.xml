@@ -1,68 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hyerim.kr.hs.e_mirim.friendsimulation.MainActivity"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context="hyerim.kr.hs.e_mirim.friendsimulation.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:onClick="onClick"
         android:text="최민경 시뮬레이터"
-        android:textSize="40sp"
-       />
+        android:textSize="40sp" />
 
     <ImageView
         android:id="@+id/friend_visual"
-        android:layout_gravity="center"
-        android:src="@drawable/five"
         android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/five" />
 
     <Button
         android:id="@+id/button1"
-        android:text="인사"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-        />
+        android:text="인사" />
 
     <Button
         android:id="@+id/button2"
-        android:text="소리"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-         />
+        android:text="소리" />
 
     <Button
         android:id="@+id/button3"
-        android:text="배고픔"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-         />
+        android:text="배고픔" />
 
     <Button
         android:id="@+id/button4"
-        android:text="주세요"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:text="주세요" />
 
     <Button
         android:id="@+id/button5"
-        android:text="소등합니다"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:text="소등합니다" />
 </LinearLayout>
